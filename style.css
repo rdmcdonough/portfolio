@@ -31,14 +31,22 @@ main {
     border: 1px dashed green;
 }
 
-footer {
-    border: 1px dotted black;
-}
-
 .card {
     border: 1px solid greenyellow;
     margin: 50px 0px 50px 0px;
     display: flex;
     justify-content: space-around;
 }
+
+.title {
+    border: 1px solid blue;
+}
+
+
+
+footer {
+    border: 1px dotted black;
+}
+
+
 
