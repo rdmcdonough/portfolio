@@ -1,0 +1,44 @@
+.nav {
+    border: 1px dashed red;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.navmenu {
+    display: flex;
+}
+
+.navmenu li {
+    margin: 20px;
+}
+
+.coolimage {
+    border: 1px solid brown;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+}
+
+.tagline {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+main {
+    border: 1px dashed green;
+}
+
+footer {
+    border: 1px dotted black;
+}
+
+.card {
+    border: 1px solid greenyellow;
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
