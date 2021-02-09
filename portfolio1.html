@@ -6,15 +6,15 @@
     <title>Ryan's Protfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>Header</header>
     <nav class="nav">
        <h1>Ryan</h1>
-        <ul class="navmenu">
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
-        </ul>
+       <a href="#">About Me</a>
+       <a href="#">Contact</a>
+       <a href="#">Link 3</a>
+       <a href="#">Link 4</a>
     </nav>
 
     <div class="coolimage">
@@ -25,10 +25,12 @@
     </div>
 
     <main class="container"> 
-        <div class="card" id="About Me">
+        <div id="aboutme">
             <h1>About Me</h1>
-            <p> My name is.... paragraph 1</p>
-            <p> Paragraph 2</p>
+            <div id="aboutcontent">
+                <p> My name is.... paragraph 1</p>
+                <p> Paragraph 2</p>
+            </div>
         </div>
        
         <div class="card" id="projects">
@@ -38,7 +40,32 @@
             <div>Project 3</div>
             <div>Project 4</div>
             <div>Project 5</div>
-
+            <section class="card">
+                <header>Camera</header>
+                <img src="./assets/images/camera.jpg" alt="black camera" />
+                <p>Price: $300</p>
+              </section>
+              <section class="card">
+                <header>Tablet</header>
+                <img src="./assets/images/tablet.jpg" alt="tablet held in hands" />
+                <p>Price: $150</p>
+              </section>
+              <section class="card">
+                <header>Toilet Paper</header>
+                <img
+                  src="./assets/images/toilet-paper.jpg"
+                  alt="rolls of toilet paper in a basket"
+                />
+                <p>Price: $30</p>
+              </section>
+              <section class="card">
+                <header>Wooden Spoons</header>
+                <img
+                  src="./assets/images/wooden-spoons.jpg"
+                  alt="4 wooden spoons with different seasonings"
+                />
+                <p>Price: $10</p>
+              </section>
         </div>
 
         <div class="card" id="contact">
