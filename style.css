@@ -8,7 +8,7 @@
   }
   
   header {
-    padding: 60px;
+    padding: 10px;
     text-align: center;
     background: #13293d;
     color: #fff;
@@ -42,23 +42,17 @@ nav a {
 .tagline {
     border: 1px solid blue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 25px;
+    margin: 20px 10px 10px 250px;
+}
+
+.tagcontent {
+    margin: 5px;
 }
 
 main {
     border: 1px dashed green;
-}
-
-footer {
-    border: 1px dotted black;
-}
-
-.card {
-    border: 1px solid greenyellow;
-    margin: 50px 0px 50px 0px;
-    display: flex;
-    justify-content: space-around;
 }
 
 #aboutme {
@@ -70,6 +64,19 @@ footer {
     flex-direction: column;
     margin: 25px;
 }
+
+.card {
+    border: 1px solid greenyellow;
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    border: 1px dotted black;
+}
+
+
 
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
@@ -96,5 +103,9 @@ footer {
     /* Change the header color */
     header {
       background: #8ac4ff;
+    }
+
+    .coolimage{
+        flex-direction: column;
     }
   }
