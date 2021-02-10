@@ -51,10 +51,6 @@ nav a {
     margin: 5px;
 }
 
-main {
-    border: 1px dashed green;
-}
-
 #aboutme {
     display: flex;
     margin: 25px;
@@ -65,21 +61,50 @@ main {
     margin: 25px;
 }
 
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
-    border: 1px solid greenyellow;
-    margin: 50px 0px 50px 0px;
+    border: 1px solid black;
+    margin: 50px 25px 50px 25px;
     display: flex;
     justify-content: space-around;
 }
 
 .title {
-    border: 1px solid blue;
+    font-style: italic;
+    margin: 25px;
 }
 
+#mainproject {
+    justify-content: space-evenly;
+}
 
+#card2 {
+    width: 25%;
+}
+
+#project2 {
+    width: 100%;
+}
+
+#contact {
+    margin: 50px 25px 50px 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div a {
+    color: #13293d;
+    padding: 50px 20px;
+    text-decoration: none;
+    text-align: center;
+}
 
 footer {
-    border: 1px dotted black;
+    text-align: center;
 }
 
 
@@ -100,18 +125,22 @@ footer {
     .card {
       width: 100%;
     }
+
+    header {
+        background: #8ac4ff;
+    }
+
     nav {
         flex-direction: column;
-      }
+    }
+
+    .coolimage {
+        flex-direction: column;
+    }
+
     #aboutme {
         flex-direction: column;
     }
-    /* Change the header color */
-    header {
-      background: #8ac4ff;
-    }
 
-    .coolimage{
-        flex-direction: column;
-    }
-  }
+    #contact
+   
