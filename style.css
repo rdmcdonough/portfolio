@@ -69,8 +69,13 @@ nav a {
 .card {
     border: 1px solid black;
     margin: 50px 25px 50px 25px;
-    display: flex;
+    width: 400px;
+    flex: 1 0 400px;
     justify-content: space-around;
+}
+
+.card img {
+    width: 100%;
 }
 
 .title {
@@ -82,9 +87,9 @@ nav a {
     justify-content: space-evenly;
 }
 
-#card2 {
+/* #card2 {
     width: 25%;
-}
+} */
 
 #project2 {
     width: 100%;
