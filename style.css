@@ -147,5 +147,7 @@ footer {
         flex-direction: column;
     }
 
-    #contact
+   #contactTitle {
+       text-align: center;
+   }
    
