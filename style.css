@@ -116,7 +116,14 @@ footer {
     text-align: center;
 }
 
+nav a:hover {
+    background-color: #141677;
+    color: #fff;
+  }
 
+.card:hover {
+    background-color: grey;
+}
 
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
