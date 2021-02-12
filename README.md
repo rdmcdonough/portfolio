@@ -1,8 +1,8 @@
 # portfolio
 Hmw2 02 Advanced CSS: Portfolio
+Ryan's Protfolio
 
-Description: This web applictions using html and css 
-
+Description: This portfolio using html and css shows to process of migrating my web application from Lamp Stack to Mern Stack with placeholder links for now
 
 Screenshot:
 ![picture](screenshot.png)
