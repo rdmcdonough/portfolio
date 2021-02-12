@@ -125,6 +125,11 @@ nav a:hover {
     background-color: grey;
 }
 
+#contact a:hover {
+    font-style: italic;
+    font-size: 30px;
+}
+
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
     .card {
