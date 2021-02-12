@@ -70,12 +70,6 @@ nav a {
     display: flex;
 }
 
-/* #mainproject {
-    height: 750px;
-    width: 1000px;
-    margin: 75px;
-} */
-
 .card {
     border: 1px solid black;
     margin: 50px 25px 50px 25px;
@@ -156,4 +150,4 @@ footer {
    #contactTitle {
        text-align: center;
    }
-   
+
