@@ -66,6 +66,16 @@ nav a {
     flex-wrap: wrap;
 }
 
+#mainprojectcard {
+    display: flex;
+}
+
+/* #mainproject {
+    height: 750px;
+    width: 1000px;
+    margin: 75px;
+} */
+
 .card {
     border: 1px solid black;
     margin: 50px 25px 50px 25px;
@@ -86,10 +96,6 @@ nav a {
 #mainproject {
     justify-content: space-evenly;
 }
-
-/* #card2 {
-    width: 25%;
-} */
 
 #project2 {
     width: 100%;
